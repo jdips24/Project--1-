@@ -1,0 +1,28 @@
+<script>
+    function answer()
+    {
+       p= document.getElementById("p") .value;
+       n= document.getElementById("n") .value;
+       r= document.getElementById("r") .value;
+    
+       var
+        Interest=(p*r*n)/100;
+        var total=parseInt(Interest)+ parseInt(p);
+         console.log(total)
+         
+      Entered_amount= document.getElementById("Entered_amount");
+      Entered_amount.innerHTML = p
+      Entered_interest= document.getElementById("Entered_interest");
+      Entered_interest.innerHTML = r + "%"
+      Calculated_Amount= document.getElementById("Calculated_Amount");
+      Calculated_Amount.innerHTML = total
+      
+      }
+      function slidervalue()
+      {
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("demo");
+        output.innerHTML = slider.value; 
+    
+      } 
+    </script>
