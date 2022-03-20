@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-family: Arial ;
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(12, 12, 12);
+    font-family: Arial;
+    color: rgb(14, 14, 13);
+<div>
+    width : 500px;
+    border: 10px black;
+    display: inline-block;
+    margin: 20px;
+    text-align : center;
+    text-indent : 100px
+</div>
+    }
+
+.calculator {
+    width: 600px;
+    height: 400px ;
+    background-color: rgb(255, 255, 255);
+    color :rgb(252, 249, 249)
+    position: center;
+    top: 100%;
+    left: 200%
+    text-align:left;
+    padding: 20px;
+    }
+
+h1 {
+    background-color: white;
+    font-family:Verdana;
+    font-size: 30px;
+    font-weight: 400px;;
+    color: rgb(112, 109, 109);
+    text-align: center;
+}
+
+  
+p {
+text-align: left;
+}
